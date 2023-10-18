@@ -26,7 +26,7 @@ const clearCacheButton = document.getElementById("clearCacheButton");
 const instructionsContainer = document.getElementById("instructionsContainer");
 const closeButton = document.getElementById("closeButton");
 
-clearCacheBtn.addEventListener("click", () => {
+clearCacheButton.addEventListener("click", () => {
   localStorage.clear();
   sessionStorage.clear();
   location.reload();
