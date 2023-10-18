@@ -26,10 +26,8 @@ const clearCacheButton = document.getElementById("clearCacheButton");
 const instructionsContainer = document.getElementById("instructionsContainer");
 const closeButton = document.getElementById("closeButton");
 
-clearCacheButton.addEventListener("click", () => {
-  instructionsContainer.style.display = "block";
-});
-
-closeButton.addEventListener("click", () => {
-  instructionsContainer.style.display = "none";
+clearCacheBtn.addEventListener("click", () => {
+  localStorage.clear();
+  sessionStorage.clear();
+  location.reload();
 });
