@@ -18,7 +18,7 @@
   "https://apps.mypurecloud.de/genesys-bootstrap/genesys.min.js",
   {
     environment: "prod-euc1",
-    deploymentId: "ae0603d2-288b-4883-aa3f-15f923722475",
+    deploymentId: "4582b143-4fb7-4a73-88f8-501b36d4bf92",
   }
 );
 
